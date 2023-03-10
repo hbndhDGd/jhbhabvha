@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.citacao-header {
+    margin: 80px 0 50px 0;
+    text-align: center;
+}
+
+.citacao {
+    color: white;
+    font-size: 24px;
+    font-family: 'Noto Serif Lao', serif;
+}
+
+#texto {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+#botao {
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+#botao:hover {
+    cursor: pointer;
+}
+
+#resultado  {
+    color: rgb(255, 6, 6);
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+
+.pruwh {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.pruwh:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.morse {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilo para telas menores */
+@media screen and (max-width: 768px) {
+    .citacao {
+        font-size: 20px;
+        text-align: justify;
+    }
+    #texto {
+        max-width: 300px;
+    }
+    .pruwh {
+        font-size: 20px;
+    }
+    .morse {
+        font-size: 20px;
+    }
+    #resultado{
+        max-width: 100%;
+        width: 100%;
+    }
+    
+}
